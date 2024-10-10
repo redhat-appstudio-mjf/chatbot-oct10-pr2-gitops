@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-oct10-pr2-database-config
+data:
+  VECTORDB_HOST: "chatbot-oct10-pr2-database"
+  VECTORDB_PORT: ""
